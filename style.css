@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: grey;
+  height: 40px;
+  margin: 10px;
+}
+
+nav ul li {
+  list-style-type: none;
+  box-sizing: border-box;
+  font-size: 20px;
+  margin: 5px;
+  padding: 5px;
+  font-weight: bold; /*gras*/
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+}
+
+.carousel {
+  background-color: whitesmoke;
+  height: 300px;
+  margin: 10px;
+}
+
+h2 {
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.sectionArticle {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px;
+  height: 400px;
+}
+
+article {
+  margin: 10px;
+  padding: 10px;
+  width: 30%;
+  height: 400px;
+  background-color: whitesmoke;
+}
+
+hr {
+  position: relative;
+  top: 600px;
+  width: 1500px;
+  height: 2px;
+  background-color: black;
+}
+.secondTitle {
+  display: flex;
+  justify-content: left;
+  margin-top: 200px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form input textarea {
+  margin: auto;
+  width: 80%;
+  padding: 10px;
+  border: 2px solid black;
+}
+input {
+  padding-left: 100px;
+  padding-right: 100px;
+  margin: 10px;
+  margin-left: 450px;
+}
+
+textarea {
+  width: 600px;
+  height: 60px;
+  margin: 5px 450px;
+}
