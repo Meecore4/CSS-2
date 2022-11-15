@@ -4,35 +4,34 @@ body {
 }
 
 nav {
-  background-color: grey;
+  
   height: 40px;
   margin: 10px;
 }
 
 nav ul li {
   list-style-type: none;
-  box-sizing: border-box;
   font-size: 20px;
-  margin: 5px;
-  padding: 5px;
+  margin: 0 5px;
+  padding: 10px;
   font-weight: bold; /*gras*/
 }
 
 nav ul {
   display: flex;
-  align-items: center;
+  background-color: grey;
 }
 
 .white{
 
   background-color: whitesmoke;
-
+ 
   
 }
 .carousel {
   background-color: whitesmoke;
   height: 300px;
-  margin: 10px;
+  margin: 0 10px;
 }
 
 h2 {
@@ -81,7 +80,7 @@ hr {
 
 }
 
-input, textarea{
+input, textarea, select{
      
   width:900px;
   height:40px;
@@ -89,5 +88,6 @@ input, textarea{
   border: 2px solid black;
   
 }
+
 
 
