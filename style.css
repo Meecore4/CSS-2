@@ -23,6 +23,12 @@ nav ul {
   align-items: center;
 }
 
+.white{
+
+  background-color: whitesmoke;
+
+  
+}
 .carousel {
   background-color: whitesmoke;
   height: 300px;
@@ -63,26 +69,25 @@ hr {
   margin-top: 200px;
 }
 
-form {
-  display: flex;
+.inputPosition{
+
+  display:flex;
   flex-direction: column;
-}
-
-form input textarea {
-  margin: auto;
-  width: 80%;
   padding: 10px;
-  border: 2px solid black;
-}
-input {
-  padding-left: 100px;
-  padding-right: 100px;
-  margin: 10px;
-  margin-left: 450px;
+  margin:auto;
+  width:700px;
+  height:400px;
+  align-items: center;  
+
 }
 
-textarea {
-  width: 600px;
-  height: 60px;
-  margin: 5px 450px;
+input, textarea{
+     
+  width:900px;
+  height:40px;
+  margin:10px;
+  border: 2px solid black;
+  
 }
+
+
